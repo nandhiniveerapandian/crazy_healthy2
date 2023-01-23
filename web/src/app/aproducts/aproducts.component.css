@@ -1,0 +1,36 @@
+.products{
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.box{
+    width: 70% !important;
+    background-color: #BE5E5F;
+    border-radius: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.products input{
+    margin: 10px 0px;
+}
+.products textarea{
+    margin: 10px 0px;
+}
+.search{
+    background: black !important;
+    color: #9BEF97 !important;
+    font-weight: bolder;
+}
+.search:hover{
+    color:white !important;
+}
+

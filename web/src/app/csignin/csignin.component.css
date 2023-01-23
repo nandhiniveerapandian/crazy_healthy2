@@ -1,0 +1,80 @@
+body{
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    box-sizing: border-box;
+}
+.form{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    background-color: #BE5E5F !important;
+}
+.form .tab-header{
+    height: 50px;
+    line-height: 50px;
+}
+.form .tab-header > div{
+    width: 50%;
+    float: left;
+    text-align: center;
+    background-color: #BE5E5F!important;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.form .tab-header > div.active{
+    background-color: black;
+    color: aliceblue;
+}
+.form .tab-content{
+    padding: 20px;
+}
+.form .tab-content .form-element{
+    margin: 10px 0px;
+}
+.form .tab-content .form-element input{
+    width:100%;
+    padding:10px;
+    border:1px solid black;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 5px;
+    outline:none;
+}
+.form .tab-content .form-element input[type="chaeckbox"]{
+    width: 30px;
+    margin: 8px 0px;
+    margin-left: -5px;
+}
+.form .tab-content .form-element label{
+    color: white;
+}
+.form .tab-content .form-element button{
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background:black;
+    color:white;
+    font-size: 10px;
+    text-transform:uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.form .tab-content > div.active{
+    display: block;
+}
+.form .tab-content > div{
+    display: none;
+}

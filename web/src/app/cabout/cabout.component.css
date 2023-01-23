@@ -1,0 +1,50 @@
+#about{
+    color: white;
+    font-size: 20px;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about h1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+#contact{
+    color: white;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 70% !important;
+    background-color: #BE5E5F;
+    border-radius: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+.search{
+    background: black !important;
+    color: #9BEF97;
+    font-weight: bolder;
+}
+.search:hover{
+    color:white;
+}
